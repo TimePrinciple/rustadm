@@ -1,4 +1,8 @@
 mod rustadm;
+mod init;
+mod join;
+mod config;
+mod install;
 
 use rustadm::run_command;
 
