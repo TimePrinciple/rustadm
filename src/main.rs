@@ -1,8 +1,8 @@
-mod rustadm;
-mod init;
-mod join;
 mod config;
+mod init;
 mod install;
+mod join;
+mod rustadm;
 
 use rustadm::run_command;
 
@@ -11,4 +11,3 @@ fn main() {
     tracing::info!("Rustadm started");
     run_command();
 }
-
